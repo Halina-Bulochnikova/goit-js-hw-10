@@ -1,6 +1,8 @@
 .form {
     width: 870px;
-height: 1556px;
+    height: 1556px;
+    display: flex;
+    flex-direction: column;
 }
 .delay-label {
     display: flex;
@@ -50,6 +52,7 @@ height: 1556px;
     background: #4e75ff;
     color: white;
     border: none;
+    margin-bottom: 32px;
 }
 .btn-form:hover {
     background: #6c8cff;
