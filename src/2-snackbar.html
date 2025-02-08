@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/css/styles.css" />
+<link rel="stylesheet" href="/css/reset.css" />
+<form class="form">
+    <label class="delay-label">
+      Delay (ms)
+      <input type="number" name="delay" class="delay-input" required />
+    </label>
+  
+    <fieldset class="fieldset-block">
+      <legend>State</legend>
+      <label class="input-radio">
+        <input type="radio" name="state" value="fulfilled" required />
+        Fulfilled
+      </label>
+      <label class="input-radio">
+        <input type="radio" name="state" value="rejected" required />
+        Rejected
+      </label>
+    </fieldset>
+  
+    <button class="btn-form" type="submit">Create notification</button>
+  </form>
+  <script type="module" src="./js/2-snackbar.js"></script>

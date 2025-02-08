@@ -1,0 +1,23 @@
+.list-item {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    
+}
+.link {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 76px;
+    color: cadetblue;
+    transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: bisque;
+    padding: 36px 36px;
+    border-radius: 16px;
+
+}
+.link:hover,
+.link:focus {
+    color: chocolate;
+}
